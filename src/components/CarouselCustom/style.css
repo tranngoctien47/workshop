@@ -1,0 +1,48 @@
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next,
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-next:hover {
+  font-size: inherit;
+  color: currentColor;
+}
+
+.ant-carousel .slick-prev, .ant-carousel .slick-next{
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    display: flex !important;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    color: black;
+}
+
+.ant-carousel .slick-prev {
+    left: -10px;
+}
+.ant-carousel .slick-next {
+    right: -10px;
+}
+
+.ant-carousel .secondaryCarouse .slick-prev, .ant-carousel .secondaryCarouse .slick-next{
+    color: black !important;
+    background: unset;
+    box-shadow: unset;
+    z-index: 2;
+    width: 20px;
+    height: 20px;
+}
+
+.ant-carousel .secondaryCarouse .slick-prev{
+    left: -25px;
+}
+
+.ant-carousel .secondaryCarouse .slick-next {
+    right: -25px;
+}
+
+.ant-carousel .secondaryCarouse .slick-current .ant-image .ant-image-img {
+    border-color: #376ED7 !important;
+}
